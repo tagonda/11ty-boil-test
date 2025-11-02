@@ -1,7 +1,12 @@
 ---
 layout: layout.liquid
-title: 11ty Boilerplate
+title: My Everyday Carry
 ---
 
-<h1>Yet Another 11ty <strong>Boilerplate</strong></h1>
-<img alt="pine" src="/images/pine.png" width="50" />
+<h1>My Everyday <strong>Carry</strong></h1>
+
+<div class="items-grid">
+  {% itemCard "Keys", "/images/keys.jpg", "/keys/" %}
+  {% itemCard "3DS", "/images/3ds.jpg", "/3ds/" %}
+  {% itemCard "Burt's Bees Chapstick", "/images/chapstick.jpg", "/chapstick/" %}
+</div>
